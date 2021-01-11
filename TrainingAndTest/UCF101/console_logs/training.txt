@@ -1,0 +1,252 @@
+C:\phillipWorks\hud\paper\C3D\C3D-tensorflow-master>python train_c3d_ucf101.py
+2021-01-08 20:31:11.067296: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2021-01-08 20:31:11.067550: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From train_c3d_ucf101.py:398: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:209: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0108 20:31:15.356538 15952 module_wrapper.py:139] From train_c3d_ucf101.py:209: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:35: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0108 20:31:15.424358 15952 module_wrapper.py:139] From train_c3d_ucf101.py:35: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:226: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0108 20:31:15.433333 15952 module_wrapper.py:139] From train_c3d_ucf101.py:226: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:228: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0108 20:31:15.437322 15952 module_wrapper.py:139] From train_c3d_ucf101.py:228: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0108 20:31:15.453279 15952 lazy_loader.py:50]
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+I0108 20:31:17.360931 15952 utils.py:141] NumExpr defaulting to 4 threads.
+WARNING:tensorflow:From train_c3d_ucf101.py:137: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+W0108 20:31:18.312701 15952 module_wrapper.py:139] From train_c3d_ucf101.py:137: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:81: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W0108 20:31:18.560876 15952 module_wrapper.py:139] From train_c3d_ucf101.py:81: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:85: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+W0108 20:31:18.564568 15952 module_wrapper.py:139] From train_c3d_ucf101.py:85: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow_core\python\training\moving_averages.py:433: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0108 20:31:19.291662 15952 deprecation.py:323] From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow_core\python\training\moving_averages.py:433: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From train_c3d_ucf101.py:314: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0108 20:31:19.777471 15952 module_wrapper.py:139] From train_c3d_ucf101.py:314: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:316: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+W0108 20:31:19.810424 15952 module_wrapper.py:139] From train_c3d_ucf101.py:316: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:320: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0108 20:31:19.816405 15952 module_wrapper.py:139] From train_c3d_ucf101.py:320: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:321: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0108 20:31:19.818361 15952 module_wrapper.py:139] From train_c3d_ucf101.py:321: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2021-01-08 20:31:19.822480: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2021-01-08 20:31:19.830394: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2021-01-08 20:31:20.531611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce 940MX major: 5 minor: 0 memoryClockRate(GHz): 1.2415
+pciBusID: 0000:06:00.0
+2021-01-08 20:31:20.537457: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2021-01-08 20:31:20.542230: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cublas64_100.dll'; dlerror: cublas64_100.dll not found
+2021-01-08 20:31:20.549720: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cufft64_100.dll'; dlerror: cufft64_100.dll not found
+2021-01-08 20:31:20.554693: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'curand64_100.dll'; dlerror: curand64_100.dll not found
+2021-01-08 20:31:20.560946: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusolver64_100.dll'; dlerror: cusolver64_100.dll not found
+2021-01-08 20:31:20.566255: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll not found
+2021-01-08 20:31:20.571197: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudnn64_7.dll'; dlerror: cudnn64_7.dll not found
+2021-01-08 20:31:20.571436: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-01-08 20:31:20.689525: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-01-08 20:31:20.689775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2021-01-08 20:31:20.691311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+INFO:tensorflow:Restoring parameters from ./C3D-tensorflow/sports1m_finetuning_ucf101.model
+I0108 20:31:24.463061 15952 saver.py:1284] Restoring parameters from ./C3D-tensorflow/sports1m_finetuning_ucf101.model
+WARNING:tensorflow:From train_c3d_ucf101.py:331: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+W0108 20:31:26.421238 15952 module_wrapper.py:139] From train_c3d_ucf101.py:331: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+WARNING:tensorflow:From train_c3d_ucf101.py:332: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+W0108 20:31:26.425235 15952 module_wrapper.py:139] From train_c3d_ucf101.py:332: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+Step 0: 75.051 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 1.00000
+Step 1: 75.060 sec
+Step 2: 73.010 sec
+Step 3: 75.268 sec
+Step 4: 73.442 sec
+Step 5: 73.392 sec
+Step 6: 72.925 sec
+Step 7: 73.760 sec
+Step 8: 72.813 sec
+Step 9: 73.318 sec
+Step 10: 72.876 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 1.00000
+Step 11: 77.449 sec
+Step 12: 73.349 sec
+Step 13: 73.178 sec
+Step 14: 73.110 sec
+Step 15: 75.742 sec
+Step 16: 72.874 sec
+Step 17: 75.861 sec
+Step 18: 73.020 sec
+Step 19: 75.560 sec
+Step 20: 72.814 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 0.90000
+Step 21: 76.131 sec
+Step 22: 74.488 sec
+Step 23: 73.148 sec
+Step 24: 72.927 sec
+Step 25: 72.951 sec
+Step 26: 73.623 sec
+Step 27: 73.369 sec
+Step 28: 72.838 sec
+Step 29: 73.491 sec
+Step 30: 73.485 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 0.90000
+Step 31: 74.745 sec
+Step 32: 73.098 sec
+Step 33: 73.387 sec
+Step 34: 74.158 sec
+Step 35: 73.354 sec
+Step 36: 73.288 sec
+Step 37: 73.182 sec
+Step 38: 74.616 sec
+Step 39: 73.291 sec
+Step 40: 72.817 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 0.90000
+Step 41: 73.998 sec
+Step 42: 74.089 sec
+Step 43: 72.723 sec
+Step 44: 72.662 sec
+Step 45: 72.636 sec
+Step 46: 72.873 sec
+Step 47: 72.574 sec
+Step 48: 72.563 sec
+Step 49: 72.721 sec
+Step 50: 74.369 sec
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow_core\python\training\saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+W0108 21:36:20.130107 15952 deprecation.py:323] From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow_core\python\training\saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 1.00000
+Step 51: 78.359 sec
+Step 52: 75.490 sec
+Step 53: 79.107 sec
+Step 54: 82.676 sec
+Step 55: 73.744 sec
+Step 56: 74.276 sec
+Step 57: 75.090 sec
+Step 58: 75.063 sec
+Step 59: 74.305 sec
+Step 60: 74.226 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 1.00000
+Step 61: 76.223 sec
+Step 62: 73.736 sec
+Step 63: 73.838 sec
+Step 64: 73.959 sec
+Step 65: 74.287 sec
+Step 66: 74.884 sec
+Step 67: 74.125 sec
+Step 68: 77.229 sec
+Step 69: 74.079 sec
+Step 70: 77.490 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 1.00000
+Step 71: 76.128 sec
+Step 72: 74.065 sec
+Step 73: 74.143 sec
+Step 74: 74.135 sec
+Step 75: 75.668 sec
+Step 76: 77.241 sec
+Step 77: 75.566 sec
+Step 78: 75.986 sec
+Step 79: 79.635 sec
+Step 80: 85.088 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 0.90000
+Step 81: 89.493 sec
+Step 82: 75.889 sec
+Step 83: 76.812 sec
+Step 84: 82.244 sec
+Step 85: 77.286 sec
+Step 86: 76.173 sec
+Step 87: 85.690 sec
+Step 88: 87.106 sec
+Step 89: 75.431 sec
+Step 90: 74.094 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 1.00000
+Step 91: 71.063 sec
+Step 92: 72.078 sec
+Step 93: 70.604 sec
+Step 94: 71.720 sec
+Step 95: 71.085 sec
+Step 96: 72.307 sec
+Step 97: 70.758 sec
+Step 98: 71.094 sec
+Step 99: 71.075 sec
+Training Data Eval:
+accuracy: 1.00000
+Validation Data Eval:
+accuracy: 0.90000
+done
+
+C:\phillipWorks\hud\paper\C3D\C3D-tensorflow-master>
